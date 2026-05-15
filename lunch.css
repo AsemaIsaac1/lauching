@@ -12,21 +12,24 @@
 }
 
 .contaner h1{
-font-size: 1em  ;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em  ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .timer{
 display: flex;
 margin-top: 50px;
 gap: 20px;
-font-size: 60px;
+font-size: 1.5em;
 }
-{
-/* .contaner{ */
-/* ont-size: xx-large;
-paddinfg: 20px 0px;
-cursor:pointer; */
+
+.timer>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 .logo{
 margin-bottom: 20px;
 }
