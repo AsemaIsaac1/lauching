@@ -4,14 +4,15 @@
     color: white;
 }
 .contaner{
-width: 100vw;
-height: 100vh;
-background-image:url(background.png);
-background-position:center;
-background-size:cover;
+    width: 100%;
+    height: 100vh;
+    background-image:url(background.png);
+    background-position:center;
+    background-size:cover;
 }
+
 .contaner h1{
-font-size:larger;
+font-size: 1em  ;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .timer{
