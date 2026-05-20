@@ -14,14 +14,14 @@
         <h1 class="logo">PDF</h1>
     <p>website is under maintainance</p>
 
-    <div class="soon" >
+    <div class="soon">
     <h1>we're <span>launching</span> soon</h1>
         </div>
 
         <div class="timer">
 
             <div>
-           <p id="days" > 00:00</p>
+           <p id="days"> 00:00</p>
            <span>days</span>
         </div>
 
@@ -48,10 +48,10 @@
         <img src="rocket.png" alt="launcher" class="rocket" >
         </div>
         <script>
-            var countDownDate= new Date( "oct 16, 2026 00: 00 : 00").getTime();
+            var countDownDate= new Date("oct 16, 2026 00: 00 : 00").getTime();
             var x = setInterval(function(){
                 var now = new Date().getTime();
-                var distance = countDownDate - now;
+                var distance = countDownDate-now;
                 console.log('date is:', now, distance)
 
                 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -64,7 +64,6 @@
                 document.getElementById("hours").innerHTML= hours;
                 document.getElementById("minutes").innerHTML= minutes;
                 document.getElementById("seconds").innerHTML= seconds;
-
 
             },1000);
         </script>
